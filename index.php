@@ -72,7 +72,7 @@
 										your way</a></h2>
 									</header>
 									<i class="fas fa-laptop fa-10x"></i>
-									<p>Donec eget ex magna. Interdum et males</p>
+									<p>Our websites are designed exactly how you desire, following our streamlined process to make sure you get the result you want.</p>
 									<ul class="actions special">
 										<li><a href="Bespoke Design.html" class="button">Read more</a></li>
 									</ul>
@@ -83,7 +83,7 @@
 										 optimisation</a></h2>
 									</header>
 									<i class="fas fa-mobile fa-10x"></i>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>These days, more and more people use their mobile devices to view websites. All of our websites are built to work on all platforms.</p>
 									<ul class="actions special">
 										<li><a href="Mobile Optimisation.html" class="button">Read More</a></li>
 									</ul>
@@ -94,7 +94,7 @@
 									</a></h2>
 									</header>
 									<i class="fas fa-shopping-cart fa-10x"></i>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis magna etiam.</p>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante </p>
 									<ul class="actions special">
 										<li><a href="#" class="button">Full Story</a></li>
 									</ul>
