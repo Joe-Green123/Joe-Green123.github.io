@@ -2652,6 +2652,22 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.logos {
+				display: block;
+				margin: 4rem 0;
+				width: 40%;
+			}
+
+				.image.logos:first-child {
+					margin-top: 0;
+				}
+
+				.image.logos img {
+					width: 100%;
+				}
+
+
+
 		@media screen and (max-width: 736px) {
 
 			.image.fit {
