@@ -167,6 +167,9 @@ input, select, textarea {
 			border-bottom-color: transparent;
 		}
 
+
+
+
 	strong, b {
 		font-weight: 600;
 	}
@@ -180,11 +183,23 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
+	p2 {
+		text-align: justify;
+		margin: 0 0 2rem 0;
+	}
+
 	p1{
 		text-align: justify;
 		margin: 0 0 2rem 0;
 		text-decoration: underline;
 	}
+	p2 b{
+		color: #FF9F55;
+	}
+
+
+
+
 
 	h1, h2, h3, h4, h5, h6, h7 {
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
@@ -235,6 +250,8 @@ input, select, textarea {
 		line-height: 1.3;
 		margin: 0 0 1.5rem 0;
 	}
+
+
 
 	sub {
 		font-size: 0.8rem;
@@ -313,9 +330,7 @@ input, select, textarea {
 			color: #18bfef !important;
 		}
 
-	strong, b {
-		color: #212931;
-	}
+
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #212931;
@@ -323,6 +338,10 @@ input, select, textarea {
 
 	h7{
 		color: white;
+	}
+
+	strong, b {
+		color: #212931;
 	}
 
 	blockquote {
