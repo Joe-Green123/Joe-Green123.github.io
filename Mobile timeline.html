@@ -1,9 +1,28 @@
 <!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<script type="text/javascript">
+window.onload = function() {
+    var divs = document.getElementsByTagName("ul");
+
+    for (var i in divs) {
+        if (divs[i].className.indexOf("links") > -1) {
+            //Finds top of of the element
+            var top = 0;
+            var obj = divs[i];
+
+            if (obj.offsetParent) {
+                do {
+                    top += obj.offsetTop;
+                } while (obj = obj.offsetParent);
+            }
+
+            //Scroll to location
+            window.scroll(0, top);
+
+            break;
+        }
+    }
+};
+</script>
 <html>
 	<head>
 		<title>Griffin Media Developments</title>
@@ -15,7 +34,7 @@
 	<body class="is-preload">
 
 		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+			<div id="wrapper">
 
 				<!-- Intro -->
 					<div id="intro">
@@ -42,6 +61,7 @@
 							<li class="active"><a href="index.html">Website Design</a></li>
 							<li><a href="Portfolio.html">Portfolio</a></li>
 							<li><a href="How to buy.html">How to buy</a></li>
+							<li ><a href="Price list.html">Price List</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="https://twitter.com/Media_Griffin" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -69,7 +89,7 @@
 										</ul>
 								</div>
 								<div class="box">
-									<h3>Consult</h3>
+									<h3>Consultation</h3>
 										<ul>
 											<li>Our team will send you a simple questionnaire to get an idea of how you want your website to be</li>
 											<li>We will also discuss our own knowledge of what works well and what doesn't</li>
