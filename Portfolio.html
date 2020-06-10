@@ -1,5 +1,6 @@
 <script type="text/javascript">
-window.onload = function() {
+if (screen.width >= 699) {
+	window.onload = function() {
     var divs = document.getElementsByTagName("ul");
 
     for (var i in divs) {
@@ -20,6 +21,7 @@ window.onload = function() {
             break;
         }
     }
+	}
 };
 </script>
 <html>
