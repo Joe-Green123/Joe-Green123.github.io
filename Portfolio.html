@@ -1,10 +1,10 @@
 <script type="text/javascript">
 if (screen.width >= 699) {
 	window.onload = function() {
-    var divs = document.getElementsByTagName("ul");
+    var divs = document.getElementsByTagName("section");
 
     for (var i in divs) {
-        if (divs[i].className.indexOf("links") > -1) {
+        if (divs[i].className.indexOf("post") > -1) {
             //Finds top of of the element
             var top = 0;
             var obj = divs[i];
@@ -91,7 +91,7 @@ if (screen.width >= 699) {
 					</nav>
 
 				<!-- Main -->
-					<div id="main" class="scroll">
+					<div id="main">
 
 						<!-- Post -->
 							<section class="post">
